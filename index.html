@@ -17,8 +17,7 @@
             Lista email
         </div>
         <ul>
-            <!-- <li>{{msj}}</li> -->
-            <li>{{emailContainer}}</li>
+            <li v-for="key,i in emailContainer">{{emailContainer[i]}}</li>
         </ul>
 
     </main>
