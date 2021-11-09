@@ -6,7 +6,6 @@ new Vue({
         url: "https://flynn.boolean.careers/exercises/api/random/mail",
         emailContainer: [],
         emaiDaUrl: "",
-
     },
     methods: {
 
