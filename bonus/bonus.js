@@ -11,6 +11,7 @@ new Vue({
     methods: {
         generaEmail() {
             let tempContainer = [];
+            this.contatore = 0;
 
             for (let index = 0; index < 10; index++) {
                 axios.get(this.url).then((ajaxResponse) => {
